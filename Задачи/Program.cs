@@ -18,7 +18,7 @@ namespace Задачи
 
         static async Task<long> CalculateFactorialAsync(int number)
         {
-            await Task.Delay(5000); // Задержка потока на 5 секунд
+            await Task.Delay(8000); // Задержка потока на 8 секунд
             long factorial = 1;
             for (int i = 1; i <= number; i++)
             {
